@@ -1,0 +1,43 @@
+{
+  "name": "react-d3-force-layout",
+  "version": "1.0.0",
+  "description": "Using d3 with react is hard enough. This package will help users around the globe to use d3 force layout with react.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pkoiralap/react-d3-force-layout.git"
+  },
+  "author": {
+    "name": "Prasanna Koirala",
+    "email": "pkoiralap@gmail.com"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Pkoiralap/react-d3-force-layout/issues"
+  },
+  "homepage": "https://github.com/Pkoiralap/react-d3-force-layout#readme",
+  "dependencies": {
+    "d3-drag": "^1.2.1",
+    "d3-force": "^1.1.0",
+    "d3-selection": "^1.3.0",
+    "d3-shape": "^1.2.0",
+    "d3-zoom": "^1.7.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
