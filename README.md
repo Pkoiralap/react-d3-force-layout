@@ -2,10 +2,13 @@
 Using d3 with react is hard enough. This package will help users around the globe to use d3 force layout with react.
 
 to install
-npm install react-d3-force-layout
+npm install 
+
+    react-d3-force-layout
 
 to use
-import ForceLayout from 'react-d3-force-layout';
+
+    import ForceLayout from 'react-d3-force-layout';
 
 FORMAT OF DATA TO FEED IN
 
