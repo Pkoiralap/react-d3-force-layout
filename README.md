@@ -8,35 +8,36 @@ to use
 import ForceLayout from 'react-d3-force-layout';
 
 FORMAT OF DATA TO FEED IN
-const graphData = 
 
-    {
+
+   
+    const graphData = {
         nodes: [
-          {id: 'GrandFather',showChildren: true,show: true,group: 1},
-          {id: 'Father1',showChildren: true,show: true,group: 2},
-          {id: 'Father2',showChildren: true,show: true,group: 2},
-          {id: 'Father3',showChildren: true,show: true,group: 2},
-          {id: 'Father4',showChildren: true,show: true,group: 2},
-          {id: 'Father5',showChildren: true,show: true,group: 2},
-          {id: 'Father6',showChildren: true,show: true,group: 2},
-          {id: 'Father7',showChildren: true,show: true,group: 2},
-          {id: 'Father8',showChildren: true,show: true,group: 2},
-          {id: 'Son1',showChildren: true,show: true,group: 3},
-          {id: 'Son2',showChildren: true,show: true,group: 3},
-          {id: 'Son3',showChildren: true,show: true,group: 3},
-          {id: 'Son4',showChildren: true,show: true,group: 3},
-          {id: 'Son5',showChildren: true,show: true,group: 3},
-          {id: 'Son6',showChildren: true,show: true,group: 3},
-          {id: 'Son7',showChildren: true,show: true,group: 3},
-          {id: 'Son8',showChildren: true,show: true,group: 3},
-          {id: 'Son9',showChildren: true,show: true,group: 3},
-          {id: 'Son10',showChildren: true,show: true,group: 3},
-          {id: 'Son11',showChildren: true,show: true,group: 3},
-          {id: 'Son12',showChildren: true,show: true,group: 3},
-          {id: 'Son13',showChildren: true,show: true,group: 3},
-          {id: 'Son14',showChildren: true,show: true,group: 3},
-          {id: 'Son15',showChildren: true,show: true,group: 3},
-          {id: 'Son16',showChildren: true,show: true,group: 3},
+            {id: 'GrandFather',showChildren: true,show: true,group: 1},
+            {id: 'Father1',showChildren: true,show: true,group: 2},
+            {id: 'Father2',showChildren: true,show: true,group: 2},
+            {id: 'Father3',showChildren: true,show: true,group: 2},
+            {id: 'Father4',showChildren: true,show: true,group: 2},
+            {id: 'Father5',showChildren: true,show: true,group: 2},
+            {id: 'Father6',showChildren: true,show: true,group: 2},
+            {id: 'Father7',showChildren: true,show: true,group: 2},
+            {id: 'Father8',showChildren: true,show: true,group: 2},
+            {id: 'Son1',showChildren: true,show: true,group: 3},
+            {id: 'Son2',showChildren: true,show: true,group: 3},
+            {id: 'Son3',showChildren: true,show: true,group: 3},
+            {id: 'Son4',showChildren: true,show: true,group: 3},
+            {id: 'Son5',showChildren: true,show: true,group: 3},
+            {id: 'Son6',showChildren: true,show: true,group: 3},
+            {id: 'Son7',showChildren: true,show: true,group: 3},
+            {id: 'Son8',showChildren: true,show: true,group: 3},
+            {id: 'Son9',showChildren: true,show: true,group: 3},
+            {id: 'Son10',showChildren: true,show: true,group: 3},
+            {id: 'Son11',showChildren: true,show: true,group: 3},
+            {id: 'Son12',showChildren: true,show: true,group: 3},
+            {id: 'Son13',showChildren: true,show: true,group: 3},
+            {id: 'Son14',showChildren: true,show: true,group: 3},
+            {id: 'Son15',showChildren: true,show: true,group: 3},
+            {id: 'Son16',showChildren: true,show: true,group: 3},
         ],
         links: [
             {source: 'GrandFather', show: true, target: 'Father1', value: 5},
