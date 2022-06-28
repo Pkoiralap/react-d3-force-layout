@@ -1,10 +1,12 @@
 # react-d3-force-layout
 Using d3 with react is hard enough. This package will help users around the globe to use d3 force layout with react.
 
-to install
-npm install 
+### Demo
+Find the basic demo [here](https://codesandbox.io/s/react-playground-forked-97ppjd?file=/index.js)
 
-    react-d3-force-layout
+to install
+
+    npm install react-d3-force-layout
 
 to use
 
