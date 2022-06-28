@@ -118,6 +118,6 @@ ForceLayout takes the width and height of its immediate parent div
             circleRadius={5} // the base circle radius
             treeView={false} // put this true to see tree view
             // treeView
-            fillType="White" // "White" (yes big W) or according to the color function
+            fillType="white" // "white" or according to the color function
         />   
     </div>
